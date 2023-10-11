@@ -11,8 +11,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "contact": {
-      "type": "richtext"
+    "contacts": {
+      "type": "json"
     }
   }
 }

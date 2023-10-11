@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uss",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uss",
+    "displayName": "Contact Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_us": {
+      "type": "richtext"
+    }
+  }
+}
