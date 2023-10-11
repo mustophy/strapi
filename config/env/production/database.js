@@ -1,7 +1,7 @@
 const { parse } = require("pg-connection-string");
 
 module.exports = ({ env }) => {
-  const { host, port, database, user, password } = parse(env("postgres://cciavbie:alqXDdzEsm4K3aE9fIlAn3fWlmz9o0KK@peanut.db.elephantsql.com/cciavbie"));
+  const { host, port, database, user, password } = parse(env("DATABASE_URL"));
 
   return {
     connection: {
